@@ -124,3 +124,11 @@ nav > ul > li > a{
     white-space: pre;
 }
 
+/* Advantages */
+#advantages {
+    display: inline-block;
+}
+
+.img-adv {
+    width: 5px;
+}
