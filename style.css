@@ -2,13 +2,14 @@
 grey: #707a8a
 light-gray: #bcc0c7
 dark-grey: #5c5b5b
-
+background color :f5f5f5
 */
 
 /* body */
 body {
 	margin: 0px;
 	font-family: "Montserrat", Sans-serif;
+    background-color: #f5f5f5;
 }
 
 h1,
@@ -88,14 +89,19 @@ nav > ul > li > a{
     text-align: center;
 }
 
-.img-text {
+.img-text-container {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    top: 7.5%;
+    left: 20%;
+    right: 20%;
+}
+
+.img-text {
+    color: white;
 }
 
 .title-img {
-    margin: 0px;
-    width: 500px;
-    height: 100%;
+    width: 100%;
 }
+
+
