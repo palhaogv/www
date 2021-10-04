@@ -1,0 +1,101 @@
+/*colors
+grey: #707a8a
+light-gray: #bcc0c7
+dark-grey: #5c5b5b
+
+*/
+
+/* body */
+body {
+	margin: 0px;
+	font-family: "Montserrat", Sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 200;
+	letter-spacing: 0.4px;
+	font-family: "Montserrat", Sans-serif;
+	color: #707a8a;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* Nav bar */
+
+nav {
+    float: right;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #bcc0c7;
+    display: block;
+    line-height: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+}
+
+.img-logo {
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 20px
+}
+
+.nav-container {
+    background-color: #707a8a;
+    overflow: hidden;
+}
+
+/* Title Logo */
+#home-page-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100%;
+}
+
+/* Image Title */
+.container.img-title {
+    position: relative;
+    text-align: center;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.title-img {
+    margin: 0px;
+    width: 500px;
+    height: 100%;
+}
