@@ -134,25 +134,22 @@ nav > ul > li > a{
 
 #left-box {
     float:left; 
-    width:31.5%;
-    height:350px;
     margin-right: 2.75%;
 }
 
 #middle-box {
     float:left; 
-    width:31.5%;
-    height:350px;
 }
 
 #right-box {
     float:right;
-    width:31.5%;
-    height:350px;
 }
 
 .container-advantage {
-    background-color: #bcc0c7
+    background-color: #bcc0c7;
+    width: 31.5%;
+    height:350px;
+    box-shadow: 0px 2px 5px grey;
 }
 
 .img-adv {
@@ -167,5 +164,16 @@ nav > ul > li > a{
     text-align: center;
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.advantage-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 12.3px;
+    line-height: 1.3;
 }
