@@ -155,5 +155,9 @@ nav > ul > li > a{
 }
 
 .img-adv {
-    width: 25px;
+    display: block;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
 }
