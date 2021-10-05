@@ -125,10 +125,35 @@ nav > ul > li > a{
 }
 
 /* Advantages */
+
 #advantages {
-    display: inline-block;
+    width: auto;
+    height: 350px;
+}
+
+#left-box {
+    float:left; 
+    width:31.5%;
+    height:350px;
+    margin-right: 2.75%;
+}
+
+#middle-box {
+    float:left; 
+    width:31.5%;
+    height:350px;
+}
+
+#right-box {
+    float:right;
+    width:31.5%;
+    height:350px;
+}
+
+.container-advantage {
+    background-color: #bcc0c7
 }
 
 .img-adv {
-    width: 5px;
+    width: 25px;
 }
