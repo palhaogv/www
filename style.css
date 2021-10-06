@@ -37,6 +37,7 @@ h1.title {
 .container {
     margin-left: 10%;
     margin-right: 10%;
+    display: inline-block;
 }
 
 /* ------------------------------------------------------------------------*/
@@ -206,27 +207,30 @@ nav > ul > li > a{
 /* ------------------------------------------------------------------------*/
 /* Program schedule */
 /* Title */
-#program-schedule{
-    font-size: 23px
+/*#program-schedule{
+    font-size: 23px;
+    width: auto;
+    height: 350px;
+}*/
+
+.schedule-title {
+    display: inline;
+    width: 100%;
+    height: 150px;
 }
 
 .img-schedule {
     float: left;
     width: 100px;
+    height: auto;
     padding-right: 5%;
 }
 
 .title-schedule {
     float: left;
-    height: 100px;
-    line-height: 100px;
+    width: 100%;
     text-align: center;
     font-weight: bold;
-}
-
-.container-schedule-title {
-    width: 100%;
-    height: 150px;
 }
 
 /* Body */
@@ -241,6 +245,13 @@ nav > ul > li > a{
     margin-right: 20%;
 }
 
+/* ------------------------------------------------------------------------*/
+/* Additional info 1&2 */
+
+#additional-info {
+    margin-top: 100px;
+    text-align: center;
+}
 
 
 
