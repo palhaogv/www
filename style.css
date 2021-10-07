@@ -250,14 +250,15 @@ span::before {
 /* Additional info 1&2 */
 
 #additional-info {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .additional-2 {
     font-size: 27px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
 }
 
 /* ------------------------------------------------------------------------*/
