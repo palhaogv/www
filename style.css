@@ -290,3 +290,45 @@ footer {
     margin-top: 3%;
     margin-bottom: 10px;
 }
+
+/* ------------------------------------------------------------------------*/
+/* ------------------------------ABOUT US--------------------------------*/
+/* First info */
+
+#info-box {
+    height: 500px;
+    width: auto;
+    padding-bottom: 10%;
+}
+
+#info-image {
+    height: 100%;
+    width: auto;
+}
+
+.info-image-1 {
+    float: right;
+}
+
+.info-image-2 {
+    float: left;
+}
+
+#aboutus {
+    width: 50%;
+    line-height: 25px;
+}
+
+.container-text.title {
+    font-size: 20px;
+    padding-bottom: 4%;
+    line-height: 40px;
+}
+
+.container-aboutus-1 {
+    float: left;
+}
+
+.container-aboutus-2 {
+    float: right;
+}
