@@ -215,17 +215,22 @@ span::before {
 
 .img-schedule {
     float: left;
-    width: 10%;
+    width: 80px;
     height: auto;
-    padding-right: 5%;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
-.title-schedule {
-    float: left;
-    width: 85%;
+.container.title-schedule {
+    display: table;
     height: 100%;
-    font-weight: bold;
+}
+
+.container.title-schedule h3 {
     margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 /* Body */
@@ -238,6 +243,7 @@ span::before {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    font-size: 20px;
 }
 
 /* ------------------------------------------------------------------------*/
