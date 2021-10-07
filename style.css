@@ -30,8 +30,9 @@ h1.title {
     font-weight: bold;
     text-align: center;
     font-size: 40px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
 }
 
 .container {
@@ -115,10 +116,6 @@ nav > ul > li > a{
 
 /* ------------------------------------------------------------------------*/
 /* Intro Title */
-#intro {
-    padding-left: 300px;
-    padding-right: 300px
-}
 span::before {
     content: "\A";
     white-space: pre;
@@ -181,7 +178,7 @@ span::before {
 /* ------------------------------------------------------------------------*/
 /* Find out more */
 #find-out {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 39%;
     margin-right: 39%;
     text-align: center;
@@ -189,7 +186,7 @@ span::before {
 
 .h2-title.button {
     background-color: #707a8a;
-    padding: 25px;
+    padding: 20px;
     font-size: 20px;
     color: white;
     font-weight: bold;
