@@ -196,6 +196,7 @@ span::before {
     font-weight: bold;
     border-radius: 15px;
     box-shadow: 0px 2px 5px grey;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------------------*/
@@ -417,9 +418,32 @@ button {
     padding-top: 70px;
 }
 
-/*    float: left;
-    margin: 0;
-    text-align: center;
-    width: 93%;
-    /* text-indent: -7%; 
-    transform: translate(-3.255%, 0%); */
+/* Modal */
+.Modal-img {
+    width: 20px;
+    height: auto;
+}
+
+.Mymodal {
+    background-color: rgba(112, 122, 138, 0.2);
+    position: absolute;
+    top: 0;
+    height: 1800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal_contents {
+    background-color: white;
+    margin: 2rem 4rem;
+    padding: 2rem 4rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #707a8a
+
+}
+
+
