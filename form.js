@@ -15,10 +15,11 @@ var closeBtn = document.getElementById("find-out");
 
 btn.onclick = function(event) { //function to 'open' de modal.
     event.preventDefault()
-    typeof fname.value == 'string' ? console.log(fname.value) : NaN
-    typeof lname.value == 'string' ? console.log(lname.value) : NaN
-    email.value.includes('@') == true ? console.log(email.value) : NaN
-    typeof message.value == 'string' ? console.log(lname.value) : NaN
+    typeof fname.value == 'string' ? console.log('First name: ' + fname.value) : NaN
+    typeof lname.value == 'string' ? console.log('Last name: ' + lname.value) : NaN
+    typeof number.value == 'string' ? console.log('Number: ' + lname.value) : NaN
+    email.value.includes('@') == true ? console.log('email: ' + email.value) : NaN
+    typeof message.value == 'string' ? console.log('Message: ' + message.value) : NaN
     modal.style.display = "flex";
 }
 
