@@ -441,9 +441,9 @@ button {
 
 .mymodal {
     background-color: rgba(112, 122, 138, 0.2);
-    position: absolute;
+    position: fixed;
     top: 0;
-    height: 1800px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
