@@ -16,11 +16,11 @@ var closeBtn = document.getElementById("find-out");
 btn.onclick = function(event) { //function to 'open' de modal.
     var count = 0
     event.preventDefault()
-    fname.value === '' || fname.value == null ? alert('First name field is wrong!') & ++count : 0
-    lname.value === '' || lname.value == null ? alert('Last name field is wrong!') & ++count : 0
-    number.value === '' || number.value == null ? alert('Number field is wrong!') & ++count : 0
-    email.value === '' || email.value == null || email.value.includes('@') == false ? alert('Email field is wrong!') & ++count : 0
-    message.value === '' || message.value == null ? alert('Message field is wrong!') & ++count : 0
+    fname.value === '' || fname.value == null ? alert('Please enter a valid first name!') & ++count : 0
+    lname.value === '' || lname.value == null ? alert('Please enter a valid last name!') & ++count : 0
+    number.value === '' || number.value == null ? alert('Please enter a valid number!') & ++count : 0
+    email.value === '' || email.value == null || email.value.includes('@') == false ? alert('Please enter a valid email address!') & ++count : 0
+    message.value === '' || message.value == null ? alert('Please enter a valid message!') & ++count : 0
     if (count === 0) {
         modal.style.display = "flex"
         console.log('First name: ' + fname.value)
