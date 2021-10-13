@@ -14,13 +14,21 @@ var closeBtn = document.getElementById("find-out");
 
 
 btn.onclick = function(event) { //function to 'open' de modal.
+    var count = 0
     event.preventDefault()
-    typeof fname.value == 'string' ? console.log('First name: ' + fname.value) : NaN
-    typeof lname.value == 'string' ? console.log('Last name: ' + lname.value) : NaN
-    typeof number.value == 'string' ? console.log('Number: ' + lname.value) : NaN
-    email.value.includes('@') == true ? console.log('email: ' + email.value) : NaN
-    typeof message.value == 'string' ? console.log('Message: ' + message.value) : NaN
-    modal.style.display = "flex";
+    fname.value === '' || fname.value == null ? alert('First name field is wrong!') & ++count : 0
+    lname.value === '' || lname.value == null ? alert('Last name field is wrong!') & ++count : 0
+    number.value === '' || number.value == null ? alert('Number field is wrong!') & ++count : 0
+    email.value === '' || email.value == null || email.value.includes('@') == false ? alert('Email field is wrong!') & ++count : 0
+    message.value === '' || message.value == null ? alert('Message field is wrong!') & ++count : 0
+    if (count === 0) {
+        modal.style.display = "flex"
+        console.log('First name: ' + fname.value)
+        console.log('Last name: ' + lname.value)
+        console.log('Number: ' + lname.value)
+        console.log('email: ' + email.value)
+        console.log('Message: ' + message.value)
+    }
 }
 
 closeBtn.onclick = function() { //function to 'close' de modal.
