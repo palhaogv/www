@@ -19,7 +19,8 @@ h3,
 h4,
 h5,
 h6,
-label {
+label,
+p {
 	font-weight: 200;
 	letter-spacing: 0.4px;
 	font-family: "Montserrat", Sans-serif;
@@ -419,12 +420,26 @@ button {
 }
 
 /* Modal */
-.Modal-img {
-    width: 20px;
+.modal-img {
+    width: 10%;
     height: auto;
+    float: left;
 }
 
-.Mymodal {
+.modal-title {
+    float: left;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+#modal-p {
+    display: inline-flex;
+    text-align: left;
+    margin: 2% 10%;
+    font-weight: bold;
+}
+
+.mymodal {
     background-color: rgba(112, 122, 138, 0.2);
     position: absolute;
     top: 0;
@@ -443,7 +458,8 @@ button {
     border-style: solid;
     border-width: 1px;
     border-color: #707a8a
-
 }
 
-
+#find-out.find-out-modal {
+    margin-top: 0px;
+}
